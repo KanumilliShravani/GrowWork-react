@@ -42,4 +42,35 @@
 }
 .seleced_rows{
   margin-right: auto;
+  font-size: 24px;
+  font-weight: 600;
+}
+.overlay-panel{
+  display: flex;
+  flex-direction: column;
+
+}
+.input-box{
+  display: flex;
+  align-items: center;
+}
+.select-btn{
+  background-color: rgb(14, 115, 158);
+  border-radius: 6px;
+  padding: 6px 8px;
+  margin: 4px;
+}
+.p-overlaypanel .p-inputnumber .p-inputnumber-button {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    min-width: 2rem !important; 
+    min-height: 1.5rem !important;
+}
+
+
+.p-overlaypanel .p-inputnumber-button .p-button-icon {
+    font-size: 1rem !important;
+    visibility: visible !important;
+    color: var(--primary-color, #007ad9) !important;
 }
