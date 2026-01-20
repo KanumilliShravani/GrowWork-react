@@ -134,7 +134,7 @@ const goToSpecificPage = (pageNumber: number) => {
        
     }
  useEffect(() => {
-    const currentSelection = response.filter((row, idx) => 
+    const currentSelection = response.filter((_, idx) => 
         selectedRowIds.has(first + idx) 
     );
     setSelected(currentSelection);
